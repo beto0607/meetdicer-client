@@ -1,11 +1,16 @@
-<div class="wrapper">
-  <div class="left">
-    <a routerLink="/">
-      <img src="logo.png" alt="logo"/>
-    </a>
-  </div>
-  <div class="center"></div>
-  <div class="right">
-    <mat-icon>person</mat-icon>
-  </div>
+<div class="left">
+  <a routerLink="/">
+    <img src="logo.png" alt="logo"/>
+  </a>
+</div>
+<div class="center">
+  <mat-form-field class="example-full-width">
+    <input matInput
+      placeholder="Search..."
+    />
+    <mat-icon matPrefix>search</mat-icon>
+  </mat-form-field>
+</div>
+<div class="right">
+  <mat-icon>person</mat-icon>
 </div>
