@@ -1,2 +1,12 @@
 <app-topbar/>
-<router-outlet />
+<mat-drawer-container class="example-container" autosize>
+  <mat-drawer mode="side" opened #drawer>
+    <app-sidebar/>
+  </mat-drawer>
+    <button type="button" mat-button (click)="drawer.toggle()">
+      Toggle sidenav
+    </button>
+  <router-outlet />
+</mat-drawer-container>
+
+
