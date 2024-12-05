@@ -7,10 +7,27 @@ body {
 
 :root {
   --ui-purple: #2c106a;
+
+  --text-color-primary: #fff;
+  --text-color-secondary: #b6b6b6;
+  --text-color-terciary: #999999;
+
+  --bg-color-primary: #000;
+  --bg-color-secondary: #222;
+  --bg-color-terciary: #333;
+
+  --border-color-primary: #fff;
+  --border-color-secondary: #ccc;
+  --border-color-terciary: #fff;
+
+  --button-primary-bg-color: var(--ui-purple);
+  --button-secondary-bg-color: transparent;
+
+  --button-primary-color: var(--text-color-primary);
+  --button-secondary-color: var(--ui-purple);
 }
 
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
-  background-color: #2f2f2f;
 }
